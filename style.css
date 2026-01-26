@@ -208,18 +208,20 @@ body {
 }
 
 .contact-links a {
-    color: #fff;
+    color: #5ea4b0;
+    background-color: #fff;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 600;
     padding: 0.5rem 1rem;
-    border: 1px solid #fff;
+    border: 2px solid #5ea4b0;
     border-radius: 5px;
     transition: all 0.3s;
 }
 
 .contact-links a:hover {
-    background-color: #fff;
-    color: #5ea4b0;
+    background-color: #5ea4b0;
+    color: #fff;
+    border-color: #fff;
 }
 
 /* Updates/Projects Section */
