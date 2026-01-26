@@ -306,12 +306,26 @@ body {
     font-size: 2.5rem;
     color: #2c3e50;
     margin-bottom: 0.5rem;
+    background-color: transparent;
+    padding: 0;
+    text-shadow: 
+        -0.25px -0.25px 0 #fff,
+        0.25px -0.25px 0 #fff,
+        -0.25px 0.25px 0 #fff,
+        0.25px 0.25px 0 #fff;
 }
 
 .blog-intro {
-    color: #7f8c8d;
+    color: #2c3e50;
     font-size: 1.2rem;
     margin-bottom: 3rem;
+    background-color: transparent;
+    padding: 0;
+    /* text-shadow: 
+        -0.25px -0.25px 0 #fff,
+        0.25px -0.25px 0 #fff,
+        -0.25px 0.25px 0 #fff,
+        0.25px 0.25px 0 #fff; */
 }
 
 .blog-post-preview {
