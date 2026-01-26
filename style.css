@@ -162,7 +162,7 @@ body {
         0 1px 0 #fff;
 }
 
-.tagline {
+/* .tagline {
     font-size: 1.4rem;
     color: #2c3e50;
     text-shadow: 
@@ -174,13 +174,13 @@ body {
         0.25px 0 0 #fff,
         0 -0.25px 0 #fff,
         0 0.25px 0 #fff;
-}
+} */
 
 .bio {
     background-color: rgba(94, 164, 176, 0.9);
     padding: 2rem;
     border-radius: 4px;
-    border: 2px solid #2c3e50;
+    border: 1px solid #fff;
     margin-bottom: 2rem;
     font-size: 1rem;
     line-height: 1.8;
@@ -195,7 +195,7 @@ body {
     background-color: rgba(94, 164, 176, 0.9);
     padding: 1.5rem;
     border-radius: 8px;
-    border: 2px solid #2c3e50;
+    border: 1px solid #fff;
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
