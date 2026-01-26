@@ -19,7 +19,7 @@ body {
 .updates-section,
 .blog-section,
 .blog-post {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 /* Navigation */
