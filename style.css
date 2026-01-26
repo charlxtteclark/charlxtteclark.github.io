@@ -470,3 +470,143 @@ footer {
         padding: 1rem;
     }
 }
+
+/* Section Layout - Left title, Right content */
+.section-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: left;
+    margin: 0;
+    text-shadow: 
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.section-content {
+    display: flex;
+    gap: 2rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 3rem 0;
+}
+
+.about-text-block {
+    background-color: rgba(94, 164, 176, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid #2c3e50;
+    color: #fff;
+    flex: 1;
+}
+
+.about-text-block p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.about-photo {
+    flex-shrink: 0;
+}
+
+.about-photo img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid #2c3e50;
+    border-radius: 8px;
+}
+
+/* Contact Section Inline */
+.contact-section-inline {
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+/* Work Section */
+.work-section {
+    padding: 3rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.project-card {
+    background-color: rgba(94, 164, 176, 0.9);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #2c3e50;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.project-info h3 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.project-info p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.project-link {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    transition: opacity 0.3s;
+}
+
+.project-link:hover {
+    opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .section-title {
+        text-align: center;
+    }
+    
+    .section-content {
+        flex-direction: column;
+    }
+    
+    .about-photo img {
+        width: 100%;
+        height: auto;
+    }
+}

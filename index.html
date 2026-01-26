@@ -12,81 +12,77 @@
             <a href="index.html" class="logo">CCC</a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </div>
     </nav>
 
     <main class="main-content">
-        <!-- Profile Section -->
-        <section class="profile-section">
+        <!-- About Me Section -->
+        <section class="about-section">
             <div class="container">
-                <div class="profile-header">
-                    <div class="profile-image">
-                        <!-- REPLACE THIS: Add your photo in the assets/images folder and update the src -->
-                        <img src="assets/images/charlotte.JPG" alt="Charlotte Clark">
-                    </div>
-                    <div class="profile-text">
-                        <h1>Charlotte Clark</h1>
-                        <p class="tagline">Product | Venture | Social Imapct</p>
+                <div class="section-layout">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-content">
+                        <div class="about-text-block">
+                            <p>I'm Charlotte Clark — a product‑minded operator and MBA candidate at UCLA Anderson (Class of 2027) focused on building and scaling technology that creates real‑world impact.</p>
+                            
+                            <p>Before business school, I worked in enterprise software consulting at Hitachi Solutions, where I led AI use‑case workshops, supported enterprise software implementations, and partnered with cross‑functional teams on digital transformation initiatives for large organizations. Earlier in my career, I spent several years as a senior behavioral therapist working with children with developmental disabilities, an experience that deeply shaped how I think about user‑centered design, accessibility, and ethical technology.</p>
+                            
+                            <p>Today, I split my time between academics, product‑oriented leadership roles, and impact investing. At Anderson, I serve in leadership positions with AnderTech, Net Impact, and Anderson Venture Impact Partners (Health & Wellness vertical), where I source and evaluate early‑stage digital health and mental‑wellness startups. I'm also a Board Fellow through the Golub Capital program, working with the nonprofit One for the World. In January 2026, I joined PS Hummingbird, a Microsoft‑focused AI consultancy, as Chief of Staff to help scale operations.</p>
+                        
+                            <p>I hold a B.A. in International Relations with a minor in French from the University of Southern California (2020). I'm especially interested in product management, AI‑enabled enterprise software, and venture investing at the intersection of technology and social impact.</p>
+                        
+                            <p>Outside of work and school, I'm a marathon runner, an avid reader, and a chronic side‑project builder — from data tools and writing projects to the occasional overly‑ambitious creative build.</p>
+                        </div>
+                        
+                        <div class="about-photo">
+                            <img src="assets/images/charlotte.jpg" alt="Charlotte Clark">
+                        </div>
                     </div>
                 </div>
-                
-                <div class="bio">
-                    <!-- EDIT THESE: Replace with your own text -->
-                    <p>I’m Charlotte Clark — a product‑minded operator and MBA candidate at UCLA Anderson (Class of 2027) focused on building and scaling technology that creates real‑world impact.</p>
-                    
-                    <p>Before business school, I worked in enterprise software consulting at Hitachi Solutions, where I led AI use‑case workshops, supported enterprise software implementations, and partnered with cross‑functional teams on digital transformation initiatives for large organizations. Earlier in my career, I spent several years as a senior behavioral therapist working with children with developmental disabilities, an experience that deeply shaped how I think about user‑centered design, accessibility, and ethical technology.</p>
-                    
-                    <p>Today, I split my time between academics, product‑oriented leadership roles, and impact investing. At Anderson, I serve in leadership positions with AnderTech, Net Impact, and Anderson Venture Impact Partners (Health & Wellness vertical), where I source and evaluate early‑stage digital health and mental‑wellness startups. I’m also a Board Fellow through the Golub Capital program, working with the nonprofit One for the World. In January 2026, I joined PS Hummingbird, a Microsoft‑focused AI consultancy, as Chief of Staff to help scale operations.</p>
-                
-                    <p>I hold a B.A. in International Relations with a minor in French from the University of Southern California (2020). I’m especially interested in product management, AI‑enabled enterprise software, and venture investing at the intersection of technology and social impact.</p>
-                
-                    <p>Outside of work and school, I’m a marathon runner, an avid reader, and a chronic side‑project builder — from data tools and writing projects to the occasional overly‑ambitious creative build.</p>
-                </div>
+            </div>
+        </section>
 
+        <!-- Contact Links -->
+        <section class="contact-section-inline">
+            <div class="container">
                 <div class="contact-links">
                     <a href="mailto:charlotte.clark@alumni.usc.edu">email</a>
                     <a href="https://github.com/charlxtteclark" target="_blank">github</a>
-                    <a href="https://www.linkedin.com/in/charlotte-christensen-clark/" target="_blank">linkedin</a>
+                    <a href="https://www.linkedin.com/in/charlotte-clark-ba486213a/" target="_blank">linkedin</a>
                     <a href="https://www.goodreads.com/user/show/161017598-charlotte-clark" target="_blank">goodreads</a>
                 </div>
             </div>
         </section>
 
-        <!-- Projects/Updates Section -->
-        <section class="updates-section">
+
+        <!-- My Work Section -->
+        <section class="work-section">
             <div class="container">
-                <h2>Projects</h2>
-                
-                <!-- PROJECT/UPDATE CARD 1
-                <!-- COPY this entire div to add more cards -->
-                <!-- <div class="update-card"> -->
-                    <!-- <div class="update-image"> -->
-                        <!-- <img src="assets/images/project1.jpg" alt="Project Name"> -->
-                    <!-- </div> -->
-                    <!-- <div class="update-content">
-                        <h3>Project Title Here</h3>
-                        <p class="date">January 2025</p>
-                        <p>Description of your project or what you've been up to. Add details about what you built, learned, or accomplished.</p>
-                        <a href="#" class="link">View Project →</a>
-                    </div>
-                </div> -->
+                <div class="section-layout">
+                    <h2 class="section-title">My Work</h2>
+                    <div class="section-content">
+                        <div class="projects-grid">
+                            <!-- PROJECT CARD 1 -->
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/platformer.png" alt="Platformer Explorer">
+                                </div>
+                                <div class="project-info">
+                                    <h3>Platformer Explorer</h3>
+                                    <p class="date">January 2022</p>
+                                    <p>On this cute platformer world, you can use the left, right, and up buttons on the keyboard to make your character explore!</p>
+                                    <p>This site uses object collision detection and a fixed time step loop to run the game consistently across all platforms.</p>
+                                    <a href="https://charlocc.github.io/platformer/" target="_blank" class="project-link">play now →</a>
+                                </div>
+                            </div>
 
-
-                <!-- PROJECT/UPDATE CARD 3 -->
-                <div class="update-card">
-                    <div class="update-image">
-                        <img src="assets/images/platformer.png" alt="Platformer Explorer">
+                            <!-- ADD MORE PROJECT CARDS here by copying the above div -->
+                            
+                        </div>
                     </div>
-                    <div class="update-content">
-                        <h3>Platformer Explorer</h3>
-                        <p class="date">January 2022</p>
-                        <p>On this cute platformer world, you can use the left, right, and up buttons on the keyboard to make your character explore!</p>
-                        <p>This site uses object collision detection and a fixed time step loop to run the game consistently across all platforms.</p>
-                        <a href="https://charlocc.github.io/platformer/" class="link">play now →</a>
-                    </div>
-                </div>               
+                </div>
             </div>
         </section>
     </main>
