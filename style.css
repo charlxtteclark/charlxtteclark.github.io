@@ -15,11 +15,36 @@ body {
     background-position: center;
 }
 
-.profile-section,
-.updates-section,
-.blog-section,
-.blog-post {
-    background-color: rgba(255, 255, 255, 0.25);
+.profile-section {
+    background-color: transparent;
+    padding: 3rem 0;
+}
+
+.profile-header,
+.bio,
+.contact-links {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.updates-section {
+    background-color: transparent;
+    padding: 3rem 0;
+}
+
+.blog-section {
+    background-color: transparent;
+    padding: 3rem 0;
+}
+
+.blog-section h1,
+.blog-intro {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
 }
 
 /* Navigation */
