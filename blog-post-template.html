@@ -1,68 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post Title - Charlotte Clark</title>
-    <link rel="stylesheet" href="../style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Post Title — Charlotte Clark</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="../index.html" class="logo">CCC</a>
-            <ul class="nav-links">
-                <li><a href="../index.html">home</a></li>
-                <li><a href="../blog.html">blog</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <main class="main-content">
-        <article class="blog-post">
-            <div class="container-narrow">
-                <a href="../blog.html" class="back-link">← back to blog</a>
-                
-                <h1>Your Blog Post Title Goes Here</h1>
-                <p class="post-date">January 25, 2025</p>
+<nav class="nav" aria-label="Primary">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__brand">Charlotte Clark</a>
+    <div class="nav__links">
+      <a href="../index.html">home</a>
+      <a href="../tech.html">tech</a>
+      <a href="../social-impact.html">social impact</a>
+    </div>
+  </div>
+</nav>
 
-                <!-- WRITE YOUR POST CONTENT BELOW -->
-                
-                <p>Start writing your blog post here. This is the opening paragraph where you hook your readers and introduce what you'll be talking about.</p>
+<main>
+  <article class="post-page wrap">
+    <a class="post-page__back" href="../social-impact.html">← back to social impact</a>
 
-                <h2>Section Heading</h2>
-                <p>Continue with your content. Break it up with headings to make it easy to read. You can add as many paragraphs and sections as you need.</p>
+    <header class="post-page__head">
+      <span class="eyebrow">January 25, 2026</span>
+      <h1>Your Post Title Goes Here</h1>
+    </header>
 
-                <p>Add images like this (make sure to put your image in the assets/images folder):</p>
-                <img src="../assets/images/blog-image.jpg" alt="Description of image" class="blog-image">
+    <div class="post-body">
+      <p>Opening paragraph — hook the reader, set up what this post is about.</p>
 
-                <h2>Another Section</h2>
-                <p>Keep writing your thoughts, insights, or stories. You can make this as long or short as you want.</p>
+      <h2>A Section Heading</h2>
+      <p>Body copy continues here.</p>
 
-                <p>You can also add lists:</p>
-                <ul>
-                    <li>First point</li>
-                    <li>Second point</li>
-                    <li>Third point</li>
-                </ul>
+      <figure>
+        <img src="../assets/images/blog-image.jpg" alt="Description of image" />
+        <figcaption>Optional caption.</figcaption>
+      </figure>
 
-                <p>Or quotes:</p>
-                <blockquote>
-                    "This is a quote or something important you want to highlight."
-                </blockquote>
+      <h2>Another Section</h2>
+      <p>More body copy.</p>
 
-                <p>End with a conclusion or final thoughts.</p>
+      <ul>
+        <li>First point</li>
+        <li>Second point</li>
+        <li>Third point</li>
+      </ul>
 
-                <!-- END OF POST CONTENT -->
+      <blockquote>Something worth highlighting.</blockquote>
 
-                <div class="post-footer">
-                    <a href="../blog.html" class="back-link">← Back to Blog</a>
-                </div>
-            </div>
-        </article>
-    </main>
+      <p>Closing thoughts.</p>
+    </div>
 
-    <footer>
-        <p>&copy; 2025 Charlotte Clark</p>
-    </footer>
+    <div class="post-page__foot">
+      <a class="post-page__back" href="../social-impact.html">← back to social impact</a>
+    </div>
+  </article>
+</main>
+
+<footer class="foot">
+  <div class="foot__inner">
+    <div>© 2026 Charlotte Clark</div>
+    <div class="foot__links">
+      <a href="https://www.linkedin.com/in/charlotte-christensen-clark">linkedin</a>
+      <a href="mailto:charlotte.clark.2027@anderson.ucla.edu">email</a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
